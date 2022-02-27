@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(105, 22, 7);
+   
+}
+@media screen and (max-width:768px){
+    body{
+        background: green;
+    }
+    .tc{
+        text-align: center;
+    }
+    h1{
+        font-size: 50px;
+        background: goldenrod;
+        padding: 20px 30px;
+        display: inline-block;
+
+    }
+
+}
+
+@media screen and (max-width:426px){
+    body{
+        background-color: chartreuse;
+    }
+    
+    h1{
+        font-size: 30px;
+        background: rgb(218, 32, 209);
+        padding: 10px 20px;
+        display: inline-block;
+    }
+}
